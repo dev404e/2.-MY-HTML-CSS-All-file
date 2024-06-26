@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container{
+width: 80%;
+margin: 0 auto;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+header{
+    background:#00C2A8;
+    color: #fff;
+}
+
+.flex{
+    display: flex;
+    justify-content:space-between;
+     
+}
+.logo h1{
+    font-size:50px;
+    padding:15px 0 ;
+
+}
+
+header ul {
+    margin-top: 30px;
+}
+
+header li{
+    list-style: none;
+    display: inline;
+}
+
+
+header ul li a{
+    color:#fff;
+    font-size:25px;
+    text-decoration:none;
+    padding:20px ;
+    text-transform: uppercase;
+}
+
+
+header ul li a:hover{
+
+    background:#4FFBDF;
+    border-radius: 5px;
+}
+
+.search{
+    margin-top:25px ;
+
+}
+
+.search input{
+    font-size: 15px;
+    padding: 5px;
+    border:none;
+}
+
+.search button{
+    font-size:15px ;
+    background:#FF8066;
+    color: #fff;
+    border: none;
+    padding: 5px;
+  
+}
+
+.search button:hover{
+    background:#CD3F2C;
+
+}
+
+#banner{
+   height: 80vh;
+   background-image: url(img/banner.jpg);
+   background-repeat:no-repeat ;
+   background-size: cover;
+   background-position: center;
+   color: #fff;
+
+}
+
+#banner .left{
+    padding: 100px 20px 0 0 ;
+    color:black ;
+}
+
+#banner .left h1{
+    font-size: 40px;
+    
+}
+
+#banner .left p{
+    margin: 30px 0;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+
+#banner .left button{
+    background:orange;
+    color: #fff;
+    outline:none ;
+    border:none ;
+    border-radius:10px;
+    padding:15px 15px ;
+
+}
+
+#banner .left button:hover{
+    background-color:rgb(224, 75, 11);
+    transition: 0.3s;
+}
+#banner .right img{
+    padding: 80px 0;
+   
+}
+
+.about-flex{
+    display: flex;
+    text-align: center;
+    padding:50px 0 ;
+
+}
+
+
+.portfolio-img{
+    display: flex;
+    justify-content:space-between ;
+
+}
+.portfolio-img img{
+    width: 264px;
+
+}
+
+#our-client{
+    background:#cfcece;
+    width:100%;
+    height:100px;
+    margin-top:20px ;
+}
+
+/* -------contact start----------- */
+
+#contact{
+    margin: 30px 0;
+  
+}
+#contact label{
+    font-size: 20px;
+    color: #1511f4;
+}
+#contact input{
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ce0000;
+    color:#ce0000 ;
+    width:300px;
+    font-size:20px;
+}
+
+textarea{
+    margin: 10px 0;
+    padding: 10px;
+    border:1px solid #ce0000;
+    color:#ce0000;
+    width: 300px;
+    font-size: 20px;
+}
+#contact button{
+    background: #2334c7;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius:10px;
+    font-size: 15px;
+}
+#contact button:hover{
+    background:#089be0;
+    transition:0.3s ;
+    
+}
+
+/* -------contact end----------- */
+
+
+
+/* ---------footer start----------  */
+#footer{
+    background: #000000;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-2 a{
+    font-size: 15px;
+   text-decoration: none;
+    color: #fff;
+}
+.col-3 a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.col-4 a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.col-2 a:hover{
+    background: #00C2A8;
+    transition: 0.3s;
+
+}
+.col-3 a:hover{
+    background: #00C2A8;
+    transition: 0.3s;
+
+}
+
+.col-4 a:hover{
+    background: #00C2A8;
+    transition: 0.3s;
+
+}
+
+
+/* ---------footer end----------  */
+
+.footer-flex-2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-flex-2 .icons i{
+    font-size: 40px;
+    color: #ffffff;
+    padding: 5px;
+}
+.footer-flex-2 .icons i:hover{
+    color: #06b0ff;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------footer start----------  */

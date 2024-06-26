@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding:0 ;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+   width: 80%; 
+   margin: 0 auto ; 
+}
+.text-aria{
+    text-align: center;
+}
+
+
+
+header{
+    background:#00b4d8 ;
+}
+.flex{ 
+    display: flex;
+    justify-content:space-between;
+}
+.logo h1{
+    font-size: 50px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.manu{
+    padding:30px;
+
+
+}
+.manu ul{
+    list-style:none;
+    
+
+}
+.manu ul li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.manu ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.manu ul li a:hover{
+    background:#90e0ef;
+    transition:0.3s ;
+}
+
+.search{
+    margin-top:20px ;
+
+}
+
+.search input{
+    font-size:15px;
+    padding: 5px;
+    border: none;
+
+}
+
+.search button{
+    font-size:15px;
+    padding: 4px;
+    background: orange;
+    color: #fff;
+    border: none;
+    border-radius:none;
+
+}
+
+.search button:hover{
+    background: #014551;
+    transition: 0.5s;
+
+}
+
+#banner{
+    height:80vh ;
+    background-image: url(img/2023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner .left {
+    padding: 100px 20px 0 0;
+
+}
+
+#banner .left h1{
+    font-size: 40px;
+    padding-bottom:20px ;
+    
+}
+#banner .left p {
+    font-size: 25px;
+    line-height: 40px;
+    padding-bottom:30px  ;
+
+}
+
+#banner .left button{
+    background:#4006a5;
+    color: #fff;
+    padding: 20px;
+    border:none ;
+    border-radius:10px ;
+
+}
+
+#banner .left button:hover{
+    background: #00b4d8;
+    transition: 0.5s;
+}
+
+.right{
+   margin:100px 20px 0 0 ;
+
+}
+
+.about-flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 0;
+}
+.portfolio-xyz{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-xyz img{
+    width:264px ;
+    padding: 30px 0;
+}
+.our-client{
+    background: #10acf4;
+    width: 100%;
+    height: 100px;
+}
+
+/* =============CONNTACT start============= */
+
+#contact{
+    margin:30px 0 ;
+}
+
+#contact label{
+    font-size:25px;
+    color: #03bcff;
+}
+
+#contact input{
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px 0;
+    border: 1px solid red;
+
+}
+
+textarea {
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px 0;
+    border: 1px solid red;
+}
+Button{
+    background: #0099ff;
+    color: #ffffff;
+    padding: 15px ;
+    border: none;
+  border-radius:10px ;
+  font-size: 15px;
+
+}
+Button:hover{
+    background: #015eff;
+    transition: 0.3s;
+}
+
+/* =============CONNTACT end ============= */
+
+
+/* =========Footer start============*/
+#footer{
+    background: black;
+    color: #fff;
+    padding:30px 0 ;
+
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.col-2 a{
+    font-size: 15px;
+    color:#fff;
+    text-decoration: none;
+}
+
+
+.col-3 a{
+    font-size: 15px;
+    color:#fff;
+    text-decoration: none;
+}
+
+
+.col-4 a{
+    font-size: 15px;
+    color:#fff;
+    text-decoration: none;
+}
+
+.col-2 a:hover{
+    background: #10acf4;
+    transition: 0.3s;
+}
+
+
+.col-3 a:hover{
+    background: #10acf4;
+    transition: 0.3s;
+}
+
+
+.col-4 a:hover{
+    background: #10acf4;
+    transition: 0.3s;
+}
+
+/* =========Footer end ============ */
+
+
+
+
+/* ---------footer flex 2 start ----------*/ 
+.footer-flex-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-flex-2 .icons i{
+    font-size: 30px;
+    color: #fff;
+    padding: 5px ;
+}
+
+.footer-flex-2 .icons i:hover{
+    background: #10acf4;
+    transition:0.3s;
+}
+
+/* ---------footer flex 2 end ---------- */
+
+
+
+
+
+

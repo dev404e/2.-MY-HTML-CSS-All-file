@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width:80% ;
+    margin: 0 auto;
+}
+
+.text-aria{
+    text-align: center;
+}
+
+header{
+    background:#00b4d8;
+    color: #fff;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.logo h1{
+    font-size: 40px;
+    padding:15px 0 ;
+}
+
+.manu{
+    margin:25px ;
+
+}
+
+.manu ul{
+    list-style:none ;
+
+}
+ul li{
+   font-size: 20px;
+   display: inline;
+   padding:20px;
+   
+}
+ ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding:10px;
+}
+ul li a:hover{
+    background:#4cc9f0;
+    transition:0.3s ;
+}
+.scrach{
+    margin:30px 20px 0 0 ;
+
+}
+.scrach input{
+    font-size: 15px;
+    border: none;
+    padding:5px;
+}
+.scrach button{
+    font-size:15px;
+    padding: 4px;
+    background: orange;
+    color: #fff;
+    border:none ;
+}
+.scrach button:hover{
+    background:#1dd3b0 ;
+    transition:0.5s ;
+}
+#banner{
+    height:80vh ;
+    background: url(img/banner\ .21..jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+
+}
+#banner .left{
+    margin:100px 20px 0  0 ;
+}
+
+#banner .left h1{
+    font-size: 40px;
+    padding:30px 0 ;
+}
+#banner .left p{
+    font-size:25px;
+    padding: 10px 20px 10px 0;
+    margin-bottom:30px ; 
+}
+
+#banner .left button{
+    background:#06d6a0;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius:10px ;
+}
+
+#banner .left button:hover{
+    background:#118ab2;
+    transition:0.3s ;
+}
+
+
+.right img{
+    padding: 80px  0  ;
+}
+.about-flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 0;
+}
+.portfolio-xyz{
+   display: flex;
+   justify-content: space-between;
+}
+.portfolio-xyz img{
+    width: 260px;
+    margin: 30px 0;
+}
+#our-client{
+    background: #0d83be;
+    width: 100%;
+    height: 100px;
+}
+

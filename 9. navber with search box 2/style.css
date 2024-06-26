@@ -1,0 +1,95 @@
+body{
+
+	background: skyblue;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+
+
+.manu{
+
+	width: 100%;
+	overflow: auto;
+	background: #0082e6;
+
+}
+
+.manu ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 80px;
+
+}
+
+.manu li{
+
+	float: left;
+	margin-left: 100px;
+
+
+}
+
+.manu ul li a {
+
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	display: inline-block;
+	width: 60px;
+	margin-left: 80px;
+
+}
+
+.manu li a:hover{
+
+	color: blue;
+	opacity: 0.5px;
+	font-size:18px ;
+
+}
+
+.search{
+
+	float: right;
+	margin-top:20px ;
+	margin-right:100px ;
+
+}
+
+.input{
+
+	font-size:16px;
+	height: 32px;
+	border: none;
+	padding: 7px;
+
+}
+
+.button{
+
+	float: right;
+	font-size: 16px;
+	background: orange;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	border:none ;
+	border-radius: 0 5px 5px 0;
+	padding: 7px;
+
+}
+
+.section{
+	background: url(12.jpg)no-repeat;
+	background-size: cover;
+	height: calc(100vh - 80px);
+
+
+
+
+}

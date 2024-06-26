@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ======heder start======== */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width:161.5px;
+
+}
+header ul{
+    margin-top:10px ;
+
+}
+header li{
+    display:inline-block;
+    padding:40px ;
+ 
+}
+header ul li a{
+    color: black;
+    font-size:20px ;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+header ul li a:hover{
+    background:#fcc000;   
+}
+.search{
+    margin-top:40px ;
+
+}
+.search input{
+    font-size: 15px;
+    padding:7px;
+}
+.search button{
+    font-size:15px;
+    padding:9px;
+    background:#fcc000;
+    color: #fff; 
+    border: none;
+}
+.search button:hover{
+    background:lightseagreen;
+    transition:0.3s ;
+}
+/* ======heder start======== */
+
+
+/* ====== banner start======== */
+#banner{
+   background-image:url(20000000.JPG) ;
+   background-repeat:no-repeat;
+   background-size: cover;
+   height:80vh;
+}
+#banner .col-1{
+    padding:150px 20px 0 0 ;
+}
+
+#banner .col-1 p{
+    font-size:30px;
+    color:#fff;
+}
+#banner .col-1 button{
+    background:#363636;
+    color: #fff;
+    font-size: 30px;
+    width: 250px;
+    height:70px;
+    margin-top:80px;
+    border: none;
+    border-radius:50px ;
+
+}
+#banner .col-1 button:hover{
+    background: #fcc000;
+    transition:0.3s;
+}
+#banner .col-2{
+    padding:20px 0 ;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======banner end======== */

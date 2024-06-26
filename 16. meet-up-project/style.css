@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* <!-- =======================banner start================== --> */
+
+#banner{
+    background:#3498db;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+
+#cantainer-1{
+    width:80%;
+    margin:0 auto;
+    
+}
+
+
+#banner .flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#banner .margin-1{
+    padding-top:100px ;
+
+}
+ 
+
+#banner .left img{
+    width:200px;
+    margin:20px 0 0 60px;
+}
+
+#banner .left h1{
+    color: #fff;
+    font-size:40px;
+    margin-left:60px;
+}
+
+#banner .left h4{
+    color: #fff;
+    margin-left:60px;
+    margin-top:20px;
+}
+
+#banner .left p{
+
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+
+#banner .btn{
+    background-color: #e74c3c;
+    color: #fff;
+    margin-left:60px;
+    margin-top:60px;
+    border:none;
+    padding:10px ;
+}
+
+#banner .btn:hover{
+  background-color: #c0392b;
+  transition:0.3s;
+
+}
+
+#banner .right img{
+    padding: 90px;
+}
+
+/* <!-- =======================banner end ================== --> */
+
+
+
+
+/* <!-- ======================= banner-2 start ================== --> */
+
+#banner-2{
+    background: #ffffff;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner-2 .container-2{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding:50px 0;
+}
+
+/* <!-- ======================= banner-2  end ================== --> */
+
+
+/* <!-- =======================banner-3- start ================== --> */
+#banner-3{
+    background: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-3{
+    width:80% ;
+    margin:0 auto ;
+
+}
+.flex-3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#banner-3 .card-1{
+    border: 1px solid lightgray;
+    padding:10px 70px;
+    text-align: center;
+}
+
+
+#banner-3 .card-2{
+    border: 1px solid lightgray ;
+    padding:10px 70px;
+    text-align: center;
+}
+
+
+#banner-3 .card-3{
+    border: 1px solid lightgray;
+    padding:10px 70px;
+    text-align: center;
+}
+
+
+
+/* <!-- =======================banner -3- end ================== --> */
+
+
+/* <!-- =======================banner-4- start ================== --> */
+
+#banner-4{
+    background: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom:50px;
+}
+
+.container-4{
+    width:80% ;
+    margin:0 auto ;
+
+}
+.flex-4{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#banner-4 .card-4{
+    border: 1px solid lightgray;
+    padding:10px 70px;
+    text-align: center;
+}
+
+
+#banner-4 .card-5{
+    border: 1px solid lightgray ;
+    padding:10px 70px;
+    text-align: center;
+}
+
+
+#banner-4 .card-6{
+    border: 1px solid lightgray;
+    padding:10px 70px;
+    text-align: center;
+}
+
+/* <!-- =======================banner -4- end ================== --> */
+
+
+/* <!-- =======================banner -5- end ================== --> */
+#banner-5{
+    background-color:#FcD93B;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.container-5 h3{
+    padding-bottom:30px;
+
+}
+
+.flex-5{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#banner-5 .left{
+    text-align: center;
+}
+
+#banner-5 .left button{
+    background-color:#DD5138;
+    color: #fff;
+    border:none;
+    padding:10px 30px;
+}
+
+#banner-5 .right{
+    text-align: center;
+
+}
+
+
+#banner-5 .right button{
+    background-color:#DD5138;
+    color: #fff;
+    border:none;
+    padding:10px 30px;
+}
+
+
+/* <!-- =======================banner -5- end ================== --> */
+
+
+/* <!-- =======================banner -6- start ================== --> */
+#banner-6{
+    background-color:#3a3a3a;
+    color: #fff;
+    padding-top:30px;
+    padding-bottom:30px ;
+   
+    
+   
+}
+.container-6{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.flex-6{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.all label{
+    font-size:20px ;
+
+}
+
+.all input{
+    margin:15px 0 ;
+    padding:5px;
+    padding-left:10px ;
+    width:400px;
+    font-size:20px;
+    border-radius:none ;
+}
+
+.all textarea{
+    margin:15px 0 ;
+    padding:5px;
+    padding-left:10px ;
+    width:400px;
+    font-size:20px;
+    border-radius:none ;
+}
+.all button{
+    background-color:#FcD93B;
+    color:black;
+    padding:8px 20px;
+    border:none;
+  
+}
+
+#banner-6 .right{
+    text-align: center;
+    
+}
+
+
+#banner-6 .right p a{
+   text-decoration: none;
+    
+}
+
+#banner-6 .right i{
+    font-size:30px;
+    
+}
+
+/* <!-- =======================banner -6- end ================== --> */
+
+
+/* ----------- footer start ------------------- */
+
+#footer-7{
+    background-color:rgb(36, 36, 36);
+    padding: 20px;
+}
+
+.container-7{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-7{
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px ;
+}
+
+
+
+#footer-7 .left p{
+    color: #fff;
+}
+
+#footer-7 .left p a{
+    text-decoration: none;
+}
+
+#footer-7 .right a{
+    text-decoration: none;
+    padding: 10px;
+    color: #FcD93B;
+
+}
+
+/* ----------- footer end ------------------- */

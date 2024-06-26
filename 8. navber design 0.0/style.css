@@ -1,0 +1,80 @@
+*{
+	list-style:none ;
+	padding:0 ;
+	margin: 0;
+	text-decoration:none ;
+	box-sizing:border-box ;
+
+
+}
+
+
+body{
+
+	font-family:montserrat ;
+
+}
+
+nav {
+	background-color:#0082e6;
+	height:80px ;
+	width: 100%;
+}
+
+label.logo {
+
+	color:white;
+	font-size:35px ;
+	line-height:80px ;
+	padding:0 100px;
+	font-weight:bold ;
+}
+nav ul  {
+
+	float:right ;
+	margin:20px ;
+
+}
+
+nav ul li  {
+
+	display:inline-block ;
+	line-height: 50px ;
+	text-align:center ;
+	
+	margin:0 5px ;
+}
+
+nav ul li a{
+
+	color: white;
+	font-size:17px ;
+	text-transform:uppercase;
+	padding:7px 16px;
+	border-radius:3px;
+
+}
+
+a.active,a:hover{
+	background:#1b9bff;
+	transition:.5s;
+
+}
+
+section{
+
+	background: url(13.jpg) no-repeat;
+	background-size: cover;
+	height:calc(100vh - 80px);
+
+
+}
+
+
+
+
+
+
+
+
+

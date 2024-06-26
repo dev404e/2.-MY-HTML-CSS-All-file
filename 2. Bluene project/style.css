@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; ;
+}
+.container{
+    width:95%;
+    margin: 0 auto;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.container-90{
+
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+header{
+    background-image: url(img/banner.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ 
+}
+.logo{
+    color: #ffff;
+    font-size: 40px;
+    margin-top:20px ;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.manu{
+    margin-top:20px ;
+}
+.manu ul{
+    list-style:none;
+   
+}
+.manu ul li{
+  display:inline-block ;
+  padding: 10px;
+
+
+
+}
+.manu ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.manu ul li a:hover{
+    color:#d90139;
+    transition:0.3s;
+     
+}
+#header-content{
+    padding:80px 20px 0 250px;
+
+}
+.flex-2{
+    display: flex;
+    justify-content: space-between;
+
+}
+#header-content h1{
+    color: #fff;
+    font-size:70px ;
+    font-weight: 700;
+    margin:40px 0 ;
+  
+}
+ .button{
+
+    background-color:#fff;
+    color: #d90139;
+    font-weight:600;
+    font-size:15px;
+    padding:25px 90px;
+    border: none;
+    outline: none; 
+}
+.button:hover{
+    background-color: #d90139;
+    transition: 0.3s;
+    color:#fff ;
+   
+    
+}
+#header-content .right img{
+    width:584px;
+  
+} 
+/* ===================banner-1 start=============== */
+ 
+#banner-1{
+    background-color: #fff;
+     /* margin:30px 0 0 ; */
+     padding-top: 80px;
+
+}
+.flex-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner-1 .right{
+    padding: 50px 150px 100px 30px;
+}
+#banner-1 .right h1{
+    font-size:40px;
+   
+}
+
+#banner-1 .right p{
+    padding:40px 0 40px 0;
+    line-height: 30px;
+}
+#banner-1 .right button{
+    background-color:#020001;
+    color: #fff;
+    padding:15px 40px;
+    border:none;
+    outline:none ;
+}
+#banner-1 .right button:hover{
+    background-color:#d90139;
+    color: #fff;
+    transition:0.5s ;
+    
+}
+#banner-1 .left img{
+    width: 585px;
+    margin-top:px;
+}
+
+/* ===================banner-1 end =============== */
+
+/* <!-- ================banner part-2 start ============== --> */
+
+    
+#banner-2{
+    background-color: #020001;
+}
+.flex-4{
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner-2 .left{
+    color: #fff;
+    padding: 100px 0 100px 160px;
+}
+.left h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+#banner-2 .left p{
+    font-size:15px;
+    line-height: 30px; 
+    padding-bottom:70px ;
+}
+#banner-2 .left button{
+    background-color:#fff;
+    color:black;
+    padding:15px 40px;
+    border:none;
+    outline:none;
+    
+}
+#banner-2 .left button:hover{
+    background-color:#d90139;
+    color: #fff;
+    transition:0.5s ;
+}
+#banner-2 .right img{
+    margin:80px 100px 100px 0 ;
+}
+
+/* <!-- ================banner part-2 end ============== --> */
+
+
+/* ============= gallary hadding start ================ */
+
+#gallary-heading{
+    padding:50px 0 0 0 ;
+
+}
+
+
+#gallary-heading h1{
+    font-size:40px;
+     padding: 20px;
+    
+}
+
+#gallary-heading p{
+    font-weight: 500;
+    line-height:25px ;
+
+}
+
+/* ============= gallary hadding end ================ */
+
+
+/* ============= gallary img start ================ */
+
+
+#gallary img{
+    padding: 10px;
+}
+
+#gallary{
+    padding:50px ;
+
+}
+
+/* ============= gallary img end ================ */
+
+
+
+/* <!-- ------------contact start------------------- --> */
+#contact{
+    background:#000;
+   
+}
+
+
+
+#contact h1{
+    color:#b3b3b3 ;
+    font-size: 70px;
+    margin-top:50px;
+
+}
+
+#contact ul{
+    background:#ffffff;
+    width:500px;
+    margin-top:50px;
+    
+}
+
+#contact ul li{
+
+    list-style:none;
+}
+
+#contact ul a{
+
+ text-decoration: none;
+ font-size:30px ;
+ padding:20px ;
+ margin-left:30px ;
+ color:#d90139 ;
+
+}
+
+#contact p{
+    color: #ffff;
+    padding:50px 0 ;
+}
+
+.flex-5{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* <!-- ------------contact start------------------- --> */
+
+#footer{
+    background:#d90139; 
+}
+
+#footer p{
+    color: #fff;
+    font-size:18px ;
+    padding:20px 0 ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- ------------contact start------------------- --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
